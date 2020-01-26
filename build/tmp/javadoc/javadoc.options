@@ -1,9 +1,0 @@
--classpath 'C:\\Users\\user\\IdeaProjects\\tp6\\build\\classes\\java\\main;C:\\Users\\user\\IdeaProjects\\tp6\\build\\resources\\main'
--d 'C:\\Users\\user\\IdeaProjects\\tp6\\build\\docs\\javadoc'
--doctitle 'artifact1 1.0 API'
--notimestamp 
--quiet 
--windowtitle 'artifact1 1.0 API'
-'C:\\Users\\user\\IdeaProjects\\tp6\\src\\main\\java\\com\\example\\exception\\NoSquareException.java'
-'C:\\Users\\user\\IdeaProjects\\tp6\\src\\main\\java\\com\\example\\model\\Matrix.java'
-'C:\\Users\\user\\IdeaProjects\\tp6\\src\\main\\java\\com\\example\\service\\MatrixMathematics.java'

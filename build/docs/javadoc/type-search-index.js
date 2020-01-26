@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"com.example.model","l":"Matrix"},{"p":"com.example.service","l":"MatrixMathematics"},{"p":"com.example.exception","l":"NoSquareException"}]
