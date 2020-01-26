@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"com.example.exception"},{"l":"com.example.model"},{"l":"com.example.service"}]
