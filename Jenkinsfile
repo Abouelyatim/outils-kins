@@ -46,7 +46,7 @@ pipeline {
 
     stage('Slack Notification') {
       steps {
-        slackSend(sendAsText: true, baseUrl: 'https://hooks.slack.com/services/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', channel: '#ss', color: '#ff0000', failOnError: true, message: 'build sucessfull', token: 'TSRL3TFPC/BTE4Z9CAJ/fZFbSAvP17sy4tCxRnTjNnro', teamDomain: 'outilshq', username: 'gi_berkane')
+        slackSend(sendAsText: true, baseUrl: 'https://hooks.slack.com/services/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', channel: '#ss', color: '#ff0000', failOnError: true, message: 'build sucessfull', token: 'TSRL3TFPC/BTE4Z9CAJ/fZFbSAvP17sy4tCxRnTjNnro', teamDomain: 'outilshq', username: 'gi_berkane', botUser: true)
       }
     }
 
