@@ -18,12 +18,23 @@ pipeline {
     }
 
     stage('Code Analysis') {
-      steps {
-        withSonarQubeEnv('sonar') {
-          bat 'gradle sonarqube'
+      parallel {
+        stage('Code Analysis') {
+          steps {
+            withSonarQubeEnv('sonar') {
+              bat 'gradle sonarqube'
+            }
+
+            waitForQualityGate true
+          }
         }
 
-        waitForQualityGate true
+        stage('Test reporting') {
+          steps {
+            jacoco()
+          }
+        }
+
       }
     }
 
