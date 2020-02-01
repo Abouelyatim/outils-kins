@@ -40,7 +40,7 @@ pipeline {
 
     stage('Deployment') {
       steps {
-        bat 'gradle uploadArchives'
+        bat 'gradle publish'
       }
     }
 
