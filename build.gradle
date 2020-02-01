@@ -9,7 +9,7 @@ plugins {
 }
 repositories {
     maven {
-        url 'https://mymavenrepo.com/repo/Jm0bfuX5zYgIVI3GCPSs'
+        url 'https://mymavenrepo.com/repo/iRcJLEFtmbXycNvutKez'
         credentials {
             username 'myMavenRepo'
             password 'test'
@@ -28,7 +28,7 @@ repositories {
 publishing {
     repositories {
         maven {
-            url 'https://mymavenrepo.com/repo/Jm0bfuX5zYgIVI3GCPSs'
+            url 'https://mymavenrepo.com/repo/iRcJLEFtmbXycNvutKez'
             credentials {
                 username 'myMavenRepo'
                 password 'test'
