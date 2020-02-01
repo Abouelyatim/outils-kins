@@ -65,7 +65,7 @@ from('build/reports'){
 
     }into('libs')
 
-into('C:\\Users\\user\\Desktop\\2CS_SIL-20191014T093738Z-001\\2CS_SIL\\S1\\OUTILS-Outils_GL\\TP6_Gradle\\MatrixRelease\\Matrix_v_1.0')
+into('D:\\1cpi\\semestre7\\OUTILS - Outils GL\\tp 2019\\tp88\\outils-kins\\MatrixRelease\\Matrix_v_1.0')
 
 
 
