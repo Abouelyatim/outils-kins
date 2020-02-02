@@ -48,7 +48,7 @@ pipeline {
     }
 
     stage('Slack Notification') {
-       when {
+      when {
         branch 'master'
       }
       steps {
