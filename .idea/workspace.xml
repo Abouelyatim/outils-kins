@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fd0f67e-ae03-46bd-a98e-041d3b054c22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/MatrixMathematics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/MatrixMathematics.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +185,7 @@
       <workItem from="1580031168679" duration="1184000" />
       <workItem from="1580034294522" duration="394000" />
       <workItem from="1580034939893" duration="13000" />
-      <workItem from="1580635219105" duration="743000" />
+      <workItem from="1580635219105" duration="1606000" />
     </task>
     <servers />
   </component>
