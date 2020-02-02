@@ -39,12 +39,18 @@ pipeline {
     }
 
     stage('Deployment') {
+      when {
+        branch 'master'
+      }
       steps {
         bat 'gradle uploadArchives'
       }
     }
 
     stage('Slack Notification') {
+       when {
+        branch 'master'
+      }
       steps {
         slackSend(sendAsText: true, baseUrl: 'https://hooks.slack.com/services', channel: '#ss', color: '#ff0000', failOnError: true, message: 'build sucessfull', token: 'TSRL3TFPC/BTE4Z9CAJ/BjaB3VmwTFCZ3vcBYDyPltzd', teamDomain: 'outilshq', username: 'gi_berkane')
       }
