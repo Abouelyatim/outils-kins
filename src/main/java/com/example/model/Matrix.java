@@ -1,5 +1,6 @@
 package com.example.model;
 
+import  com.example.model.*;
 public class Matrix {
 
 	private int nrows;
