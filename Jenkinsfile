@@ -31,7 +31,7 @@ pipeline {
 
         stage('Test reporting') {
           steps {
-            jacoco()
+            jacoco(execPattern: 'build/jacoco/*.exec', exclusionPattern: '**/test/*.class')
           }
         }
 
