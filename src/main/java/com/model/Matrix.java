@@ -6,6 +6,9 @@ public class Matrix {
 	private int ncols;
 	private double[][] data;
 
+
+
+//salam 3likoum
 	public Matrix(double[][] dat) {
 		this.data = dat;
 		this.nrows = dat.length;
